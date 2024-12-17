@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link 
+    rel="stylesheet"
+    href="../css/Referral.css"
+    />
+</head>
+<body>
+    
+    <div class="division gradient-background m-0">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+          
+          <div class="sidebar">
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-right mb-md-0" id="nv">
+            <li onclick=hideSidebar()><a href="#" class="nav-link px-2 link-secondary "><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="../index.html" class="nav-link px-2 link-secondary " id="nv">Home</a></li>
+            <li><a href="./what-is-NDIS.html" class="nav-link px-2 link-secondary " id="nv">What is NDIS</a></li>
+            <li class="nav-item dropdown " id="nv">
+                <a class="nav-link dropdown-toggle link-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+                </a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a class="dropdown-item" href="./C-P.html">Community Participation</a></li>
+                  <li><a class="dropdown-item" href="./Assistance.html">Assistance Daily Life</a></li>
+                  <li><a class="dropdown-item" href="./Travel.html">Travel & Freedom</a></li>
+                  <li><a class="dropdown-item" href="./Household.html">Household Tasks</a></li>
+                  <li><a class="dropdown-item" href="./Socail-activities.html">Social Activities</a></li>
+                </ul>
+              </li>
+            <li><a href="./Referral.html" class="nav-link px-2 link-secondary " id="nv">Referral</a></li>
+            <li><a href="../index.html" class="nav-link px-2 link-secondary " id="nv">Contact Us</a></li>
+          </ul>
+        </div>
+
+    
+          <div class="container bod">
+            <div class="col-md-3 mb-2 mb-md-0" id="img">
+            <a href="#" class="d-inline-flex link-body-emphasis text-decoration-none">
+              <img src="../images/logo.png" width="80px" height="80px"/>
+            </a>
+          </div>
+
+          <div class="container c2">
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-right mb-md-0" id="nav">
+            <li><a href="../index.html" class="nav-link px-2 link-secondary nv" id="nvbar">Home</a></li>
+            <li><a href="./assets/what-is-NDIS.html" class="nav-link px-2 link-secondary nv" id="nvbar">What is NDIS</a></li>
+            <li class="nav-item dropdown nv" id="nvbar">
+                <a class="nav-link dropdown-toggle link-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+                </a>
+                <ul class="dropdown-menu" id="dropdown">
+                  <li><a class="dropdown-item" href="./C-P.html">Community Participation</a></li>
+                  <li><a class="dropdown-item" href="./Assistance.html">Assistance Daily Life</a></li>
+                  <li><a class="dropdown-item" href="./Travel.html">Travel & Freedom</a></li>
+                  <li><a class="dropdown-item" href="./Household.html">Household Tasks</a></li>
+                  <li><a class="dropdown-item" href="./Socail-activities.html">Social Activities</a></li>
+                </ul>
+              </li>
+            <li><a href="./Referral.html" class="nav-link px-2 link-secondary nv" id="nvbar">Referral</a></li>
+            <li><a href="../index.html" class="nav-link px-2 link-secondary nv" id="nvbar">Contact Us</a></li>
+            <li onclick=showSidebar()><a href="#" class="menu" id="mobile"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          </ul>
+        </div>
+          
+        </header>
+    </div>
+    
+
+    <div class="container" style="justify-content:space-around;">
+        <div class="col-md-8 mb-2 mt-5">
+            <div class="" style="justify-content: center;">
+                <h1 class="mb-5">Referral Form</h1>
+            </div>
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h5 class="mb-0 fw-bold" style="font-size: 30px;">Contact Us</h5>
+            </div>
+            <div class="card-body">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row mb-4">
+                    <div>
+                        <h6>Participation Details</h6>
+                    </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example1" class="form-control" />
+                      <label class="form-label" for="form7Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example2" class="form-control" />
+                      <label class="form-label" for="form7Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mb-4">
+                    <div class="col">
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example1" class="form-control" />
+                        <label class="form-label" for="form7Example1">Preferred name</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example2" class="form-control" />
+                        <label class="form-label" for="form7Example2">sex</label>
+                      </div>
+                    </div>
+                    <div class="container mt-3" style="justify-content: flex-start;margin-left: 12px;">
+                        <div data-mdb-input-init class="form-outline">
+                        <input type="date" id="form7Example2" class="form-control" name="birthday">
+                          <label class="form-label" for="form7Example2">Date of Birth</label>
+                        </div>
+                      </div>
+
+
+                      <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+
+
+                      <div class="row mb-4 mt-4">
+                        <div>
+                            <h6>Address Details</h6>
+                        </div>
+                        <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="text" id="form7Example3" class="form-control" />
+                  <label class="form-label" for="form7Example3">Street Address</label>
+                </div>
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="form7Example3" class="form-control" />
+                    <label class="form-label" for="form7Example3">Street Address Line 2</label>
+                  </div>
+                      <div class="col">
+                        <div data-mdb-input-init class="form-outline">
+                          <input type="text" id="form7Example1" class="form-control" />
+                          <label class="form-label" for="form7Example1">City</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div data-mdb-input-init class="form-outline">
+                          <input type="text" id="form7Example2" class="form-control" />
+                          <label class="form-label" for="form7Example2">State</label>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div data-mdb-input-init class="form-outline">
+                          <input type="text" id="form7Example2" class="form-control" />
+                          <label class="form-label" for="form7Example2">Postal Code</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+    
+                    
+                  </div>
+      
+                  <div class="row mb-4">
+                    <div>
+                        <h6>NDIS Details</h6>
+                    </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example1" class="form-control" />
+                      <label class="form-label" for="form7Example1">NDIS Number</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example2" class="form-control" />
+                      <label class="form-label" for="form7Example2">Plan type</label>
+                    </div>
+                  </div>
+                </div>
+                <div class=" mt-3" style="justify-content: flex-start;margin-left: 12px;">
+                    <div data-mdb-input-init class="form-outline">
+                    <input type="date" id="form7Example2" class="form-control" name="birthday">
+                      <label class="form-label" for="form7Example2">Plan Start Date</label>
+                    </div>
+                  </div><div class=" mt-3" style="justify-content: flex-start;margin-left: 12px;">
+                    <div data-mdb-input-init class="form-outline">
+                    <input type="date" id="form7Example2" class="form-control" name="birthday">
+                      <label class="form-label" for="form7Example2">Plan End Date</label>
+                    </div>
+                  </div>
+                
+
+                <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+      
+                <div class="row mb-4">
+                    <div>
+                        <h6>Contact Details</h6>
+                    </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example1" class="form-control" />
+                      <label class="form-label" for="form7Example1">Phone Number</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example2" class="form-control" />
+                      <label class="form-label" for="form7Example2">Mobile Number</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mb-4">
+                    <div class="col">
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example1" class="form-control" />
+                        <label class="form-label" for="form7Example1">Email</label>
+                      </div>
+                    </div>
+
+                      
+      
+                      <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+
+
+                <!-- Message input -->
+                <div class="row mb-4">
+                    <div class="col">
+                        <div>
+                            <h6>Additional Information</h6>
+                        </div>
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example1" class="form-control" />
+                        <label class="form-label mb-4" for="form7Example1">Preferred Language/Dialect</label>
+                      </div>
+                    </div>
+                    <div class="form-check d-flex justify-content-left mb-4" style="margin-left: 20px;">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form7Example8" />
+                        <label class="form-check-label" for="form7Example8">
+                            Interpreter Required
+                        </label>
+                      </div>
+                 <div class="container" style="justify-content: center;">
+                    <div data-mdb-input-init class="form-outline mb-4" style="margin-right: 30px;">
+                    <textarea class="form-control" id="form7Example7" rows="4"></textarea>
+                    <label class="form-label" for="form7Example7">Additional information</label>
+                    </div>
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <textarea class="form-control" id="form7Example7" rows="4"></textarea>
+                        <label class="form-label" for="form7Example7">Additional information</label>
+                        </div>
+                </div>
+
+                <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+
+                <div class="row mb-4">
+                    <div>
+                        <h6>Primary Care Details</h6>
+                    </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example1" class="form-control" />
+                      <label class="form-label" for="form7Example1">First name</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form7Example2" class="form-control" />
+                      <label class="form-label" for="form7Example2">Last name</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row mb-4">
+                    <div class="col">
+                    <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example1" class="form-control" />
+                        <label class="form-label" for="form7Example1">Postal Address</label>
+                    </div>
+                    </div>
+                    <div class="col">
+                      <div data-mdb-input-init class="form-outline">
+                        <input type="text" id="form7Example2" class="form-control" />
+                        <label class="form-label" for="form7Example2">Email</label>
+                    </div>
+                </div>
+                
+                <div class="container" style="justify-content: center; margin-bottom: 20px; margin-top: 20px;"><hr style="width: 50%;"/></div>
+      
+                <div class="container">
+                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" onclick="message1()">
+                    Submit
+                </button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      
+      
+            </div>
+          </div>
+        </div>
+    </div>
+      
+
+      <div class="footer" style="justify-content: center;">
+        <footer class="py-3 my-0 mt-4">
+          <div class="container" style="justify-content: center;">
+          <h4>LiveWell Care</h4><br/>
+          </div>
+          <div class="container" style="justify-content: center;">
+            <p class="footer-p">Providing exceptional care services since 2024</p>
+          </div>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item items"><a href="#" class="nav-link px-2 text-body-light">Privacy Policy</a></li>
+            <li class="nav-item items"><a href="#" class="nav-link px-2 text-body-light">Terms of service</a></li>
+            <li class="nav-item items"><a href="#" class="nav-link px-2 text-body-light">Contact</a></li>
+          </ul>
+          <p class="text-center text-body-light">© 2024 Live wel Care. All rights reserved.</p>
+        </footer>
+      </div>
+
+
+      <script src="../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
